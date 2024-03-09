@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-weight: 900;
+}
+body{
+    background-image: url("mathpic.jpg");
+    background-size: cover;
+}
+.haeding{
+    text-align: center;
+  font-size: 90px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.numbox{
+    height: 576px;
+    width: 400px;
+    background-color: rgba(26, 27, 27, 0.9);
+    border-radius: 20px;
+    border: 1px solid black;
+  
+}
+#inputbox{
+    height: 100px;
+    width: 350px;
+    padding: 5px 5px;
+    margin: 20px;
+    box-shadow: inset 0px 0px 8px rgb(0,0,0,0.4);
+    font-size: 60px; 
+    text-align: right;
+    color: black;
+    background-color: rgb(215, 240, 240);
+    border-radius: 16px;
+    text-shadow: 0px 1px 5px rgb(0,0,0,0.2);
+
+}
+.btn{
+    text-align: center;
+}
+.btnAC,.btnC,.btn7,.btn8,.btn9,.btn4,.btn5,.btn6,.btn1,.btn2,.btn3,.btnmodulus,.btnplus,.btnnegative,.btnpoint,.btnequal,.btnmupltiple,.btnzero,.btndivision
+{
+    cursor: pointer;
+    border: 1px solid wheat;
+    font-size: 30px;
+    filter: drop-shadow(10px 11px 3px)
+}
+.btnAC{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:red;
+    border-radius: 50%;
+}
+.btnAC:hover{
+    background-color: rgb(117, 11, 11);
+    border: 2px solid black;
+}
+.btnC{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:rgb(100, 223, 100);
+    border-radius: 50%;
+}
+.btnC:hover{
+    background-color:rgb(12, 95, 12);
+    border: 2px solid black;
+}
+.btnmodulus{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+     background-color:orange;
+    border-radius: 50%;
+   
+}
+.btnmodulus:hover{
+    background-color:rgb(117, 80, 11);
+    border: 2px solid black;
+}
+.btnequal{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:blue;
+    border-radius: 50%;
+   
+}
+.btnequal:hover{
+    background-color: rgb(6, 6, 94);
+    border: 2px solid black;
+}
+.btn7{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:gray;
+    border-radius: 50%;
+    
+}
+.btn7:hover{
+    background-color:rgb(48, 44, 44);
+    border: 2px solid black;
+}
+.btn8{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:gray;
+    border-radius: 50%;
+}
+.btn8:hover{
+    background-color:rgb(48, 44, 44);
+    border: 2px solid black;
+}
+.btn9{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:gray;
+    border-radius: 50%;
+}
+.btn9:hover{
+    background-color:rgb(48, 44, 44);
+    border: 2px solid black;
+}
+.btnplus{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:orange;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid wheat;
+    font-size: 30px;
+}
+.btnplus:hover{
+    background-color:rgb(117, 80, 11);
+    border: 2px solid black;
+}
+.btn4{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:gray;
+    border-radius: 50%;
+}
+.btn4:hover{
+    background-color:rgb(48, 44, 44);
+    border: 2px solid black;
+}
+.btn5{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:gray;
+    border-radius: 50%;
+}
+.btn5:hover{
+    background-color:rgb(48, 44, 44);
+    border: 2px solid black;
+}
+.btn6{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:gray;
+    border-radius: 50%;
+}
+.btn6:hover{
+    background-color:rgb(48, 44, 44);
+    border: 2px solid black;
+}
+.btnnegative{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:orange;
+    border-radius: 50%;
+}
+.btnnegative:hover{
+    background-color:rgb(117, 80, 11);
+    border: 2px solid black;
+}
+.btn1{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:gray;
+    border-radius: 50%;
+}
+.btn1:hover{
+    background-color:rgb(48, 44, 44);
+    border: 2px solid black;
+}
+.btn2{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:gray;
+    border-radius: 50%;
+}
+.btn2:hover{
+    background-color:rgb(48, 44, 44);
+    border: 2px solid black;
+}
+.btn3{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:gray;
+    border-radius: 50%;
+}
+.btn3:hover{
+    background-color:rgb(48, 44, 44);
+    border: 2px solid black;
+}
+.btnmupltiple{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:orange;
+    border-radius: 50%;
+}
+.btnmupltiple:hover{
+    background-color:rgb(117, 80, 11);
+    border: 2px solid black;
+}
+.btnzero{
+    height: 60px;
+    width: 150px;
+    margin: 10px;
+    background-color:gray;
+    border-radius: 16px;
+}
+.btnzero:hover{
+    background-color:rgb(48, 44, 44);
+    border: 2px solid black;
+}
+.btnpoint{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:gray;
+    border-radius: 50%;
+}
+.btnpoint:hover{
+    background-color:rgb(48, 44, 44);
+    border: 2px solid black;
+}
+.btndivision{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background-color:orange;
+    border-radius: 50%;
+}
+.btndivision:hover{
+    background-color:rgb(117, 80, 11);
+    border: 2px solid black;
+}
